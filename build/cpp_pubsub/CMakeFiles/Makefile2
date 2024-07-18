@@ -65,6 +65,8 @@ CMAKE_BINARY_DIR = /ros2_ws/build/cpp_pubsub
 # The main recursive "all" target.
 all: CMakeFiles/talker.dir/all
 all: CMakeFiles/listener.dir/all
+all: CMakeFiles/topics_practice.dir/all
+all: CMakeFiles/topics_practice_b.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +78,8 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/cpp_pubsub_uninstall.dir/clean
 clean: CMakeFiles/talker.dir/clean
 clean: CMakeFiles/listener.dir/clean
+clean: CMakeFiles/topics_practice.dir/clean
+clean: CMakeFiles/topics_practice_b.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -181,6 +185,58 @@ listener: CMakeFiles/listener.dir/rule
 CMakeFiles/listener.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/clean
 .PHONY : CMakeFiles/listener.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/topics_practice.dir
+
+# All Build rule for target.
+CMakeFiles/topics_practice.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topics_practice.dir/build.make CMakeFiles/topics_practice.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topics_practice.dir/build.make CMakeFiles/topics_practice.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/ros2_ws/build/cpp_pubsub/CMakeFiles --progress-num=5,6 "Built target topics_practice"
+.PHONY : CMakeFiles/topics_practice.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/topics_practice.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /ros2_ws/build/cpp_pubsub/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/topics_practice.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /ros2_ws/build/cpp_pubsub/CMakeFiles 0
+.PHONY : CMakeFiles/topics_practice.dir/rule
+
+# Convenience name for target.
+topics_practice: CMakeFiles/topics_practice.dir/rule
+.PHONY : topics_practice
+
+# clean rule for target.
+CMakeFiles/topics_practice.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topics_practice.dir/build.make CMakeFiles/topics_practice.dir/clean
+.PHONY : CMakeFiles/topics_practice.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/topics_practice_b.dir
+
+# All Build rule for target.
+CMakeFiles/topics_practice_b.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topics_practice_b.dir/build.make CMakeFiles/topics_practice_b.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topics_practice_b.dir/build.make CMakeFiles/topics_practice_b.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/ros2_ws/build/cpp_pubsub/CMakeFiles --progress-num=7,8 "Built target topics_practice_b"
+.PHONY : CMakeFiles/topics_practice_b.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/topics_practice_b.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /ros2_ws/build/cpp_pubsub/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/topics_practice_b.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /ros2_ws/build/cpp_pubsub/CMakeFiles 0
+.PHONY : CMakeFiles/topics_practice_b.dir/rule
+
+# Convenience name for target.
+topics_practice_b: CMakeFiles/topics_practice_b.dir/rule
+.PHONY : topics_practice_b
+
+# clean rule for target.
+CMakeFiles/topics_practice_b.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topics_practice_b.dir/build.make CMakeFiles/topics_practice_b.dir/clean
+.PHONY : CMakeFiles/topics_practice_b.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
