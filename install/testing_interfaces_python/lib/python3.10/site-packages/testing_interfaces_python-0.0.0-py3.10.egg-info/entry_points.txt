@@ -1,0 +1,6 @@
+[console_scripts]
+add_client_node = testing_interfaces_python.add_client_node:main
+add_service_node = testing_interfaces_python.add_service_node:main
+sphere_listener = testing_interfaces_python.sphere_listener:main
+sphere_publisher = testing_interfaces_python.sphere_publisher:main
+

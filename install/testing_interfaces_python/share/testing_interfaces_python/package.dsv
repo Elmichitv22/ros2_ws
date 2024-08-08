@@ -1,0 +1,6 @@
+source;share/testing_interfaces_python/hook/pythonpath.ps1
+source;share/testing_interfaces_python/hook/pythonpath.dsv
+source;share/testing_interfaces_python/hook/pythonpath.sh
+source;share/testing_interfaces_python/hook/ament_prefix_path.ps1
+source;share/testing_interfaces_python/hook/ament_prefix_path.dsv
+source;share/testing_interfaces_python/hook/ament_prefix_path.sh
